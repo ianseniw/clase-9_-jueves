@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D3EE98;
+}
+header{
+    background-color: #A0D683;
+
+}
+header h1{
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+nav{
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    background-color: #72BF78;
+}
+nav li{
+    margin: 10px 100px 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+}
+nav a{
+    border: 1px solid #FEFF9F;
+    padding: 5px;
+    color: #FEFF9F;
+
+}
+main section article a{
+    font-size: 60px;
+    color: green;
+    text-decoration: none; 
+    text-decoration: underline;   
+}
+main section article h3{
+    font-size: 60px;
+    color: green;
+    text-decoration: none;   
+}
